@@ -1,0 +1,9 @@
+{
+  "extends": ["sandbox", "sandbox/jest", "sandbox/prettier"],
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/no-floating-promises": "off"
+  }
+}
