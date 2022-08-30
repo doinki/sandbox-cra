@@ -1,5 +1,5 @@
 {
-  "packageManager": "yarn@3.2.2",
+  "packageManager": "yarn@3.2.3",
   "private": true,
   "sideEffects": false,
   "scripts": {
@@ -7,35 +7,34 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "lint": "eslint --cache --fix .",
+    "lint": "eslint .",
     "prepare:husky": "husky install"
   },
   "resolutions": {
-    "@types/node": "^16.0.0",
     "postcss": "^8.0.0"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.0.0"
   },
   "devDependencies": {
     "@craco/craco": "^6.4.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^28.1.7",
-    "@types/node": "^16.11.51",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.7.14",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/testing-library__jest-dom": "^5.14.5",
-    "eslint": "^8.22.0",
+    "eslint": "^8.23.0",
     "eslint-config-sandbox": "^1.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.1.8",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.2"
   }
 }
